@@ -1,0 +1,23 @@
+/* .footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+  background-color: lightgrey;
+  margin-top: 100px;
+  padding: 10px;
+} */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+  /* padding: 2px; */
+}

@@ -1,0 +1,70 @@
+.freelancer-profile {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.freelancer-profile h1 {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.freelancer-profile p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.freelancer-profile h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.freelancer-profile ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 2rem;
+}
+
+.freelancer-profile li {
+  margin-bottom: 0.5rem;
+}
+
+.freelancer-profile label {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.freelancer-profile .portfolio-item {
+  margin-bottom: 1rem;
+  background-color: #eee;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.freelancer-profile .portfolio-item img {
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.freelancer-profile .portfolio-item p {
+  margin-bottom: 0;
+}
+
+.freelancer-profile .portfolio-item button {
+  margin-top: 1rem;
+}

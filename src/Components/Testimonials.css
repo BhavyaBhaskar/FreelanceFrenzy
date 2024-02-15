@@ -1,0 +1,37 @@
+.testimonials {
+  margin-top: 64px;
+  padding: 32px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.testimonials-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.testimonials-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  width: 30%;
+  margin-bottom: 32px;
+}
+
+.testimonial-text {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.testimonial-author {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 8px;
+}
