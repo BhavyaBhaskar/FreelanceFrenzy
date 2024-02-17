@@ -2,7 +2,12 @@
 /* eslint-disable react/prop-types */
 import "./Header.css";
 
-function Header({ setCurrentPage, user }) {
+function Header({
+  setCurrentPage,
+  user,
+  setFreelanceCurrentPage,
+  setClientCurrentPage,
+}) {
   return (
     <header className="header">
       <nav>
@@ -17,19 +22,29 @@ function Header({ setCurrentPage, user }) {
               <a>Projects</a>
             </h3>
           </li>
-          <li onClick={() => setCurrentPage("Freelancer")}>
+          <li
+            onClick={() => {
+              setCurrentPage("Freelancer");
+              setFreelanceCurrentPage("Profile");
+            }}
+          >
             <h3>
               <a>{user === "Freelancer" ? "Freelancer" : "Client"}</a>
             </h3>
           </li>
-          <li onClick={() => setCurrentPage("Client")}>
+          <li
+            onClick={() => {
+              setCurrentPage("Client");
+              setClientCurrentPage("Profile");
+            }}
+          >
             <h3>
               <a>{user !== "Freelancer" ? "Freelancer" : "Client"}</a>
             </h3>
           </li>
           <li>
             <h3>
-              <a onClick={() => setCurrentPage("Contact Us")}>Contacts</a>
+              <a onClick={() => setCurrentPage("Contact Us")}>Contact Us</a>
             </h3>
           </li>
         </ul>

@@ -2,10 +2,11 @@ import FeaturedProject from "../Components/FeaturedProject";
 import HeroSection from "../Components/HeroSection";
 import Testimonials from "../Components/Testimonials";
 import UserProfileCard from "../Components/UserProfileCard";
+import "./Home.css";
 
 function Home() {
   return (
-    <div>
+    <div className="bg">
       <HeroSection />
       <FeaturedProject />
       <UserProfileCard />

@@ -1,70 +1,81 @@
-.freelancer-profile {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.freelancer-profile h1 {
-  font-size: 2rem;
+.bgg {
+  background-image: url("DP1inv.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+header {
+  background-color: rgb(102, 26, 26);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+h1 {
+  float: left;
+  margin: 10px;
   margin-top: 0;
-  margin-bottom: 1rem;
-  text-align: center;
 }
 
-.freelancer-profile p {
-  margin-bottom: 1rem;
-  font-size: 1.2rem;
+.profile {
+  text-align: right;
+  margin-right: 20px;
 }
 
-.freelancer-profile h2 {
-  font-size: 1.5rem;
-  margin-top: 2rem;
-  margin-bottom: 0.5rem;
-  text-align: center;
+.profile h2 {
+  color: #fff;
 }
 
-.freelancer-profile ul {
-  list-style: none;
-  padding-left: 0;
-  margin-bottom: 2rem;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+  grid-gap: 20px;
+  margin: 20px;
+  justify-content: center;
 }
 
-.freelancer-profile li {
-  margin-bottom: 0.5rem;
-}
-
-.freelancer-profile label {
-  display: inline-block;
-  margin-right: 0.5rem;
-}
-
-.freelancer-profile .portfolio-item {
-  margin-bottom: 1rem;
-  background-color: #eee;
-  padding: 1rem;
+.dashboard-section {
+  background-color: rgb(102, 26, 26);
+  border: 1px solid #ccc;
   border-radius: 5px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
+  padding: 20px;
+  color: #fff;
+  cursor: pointer;
 }
 
-.freelancer-profile .portfolio-item img {
+.dashboard-section:hover {
+  background-color: rgb(102, 26, 26, 0.5);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+h2 {
+  color: #fff;
+  margin-top: 0;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
   width: 100%;
-  max-width: 200px;
-  margin-bottom: 1rem;
-  border-radius: 5px;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  margin-top: 60px;
 }
 
-.freelancer-profile .portfolio-item p {
-  margin-bottom: 0;
-}
-
-.freelancer-profile .portfolio-item button {
-  margin-top: 1rem;
+a {
+  text-decoration: none;
+  color: #fff;
 }

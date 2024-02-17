@@ -14,6 +14,9 @@ import LoginSignupPage from "./Components/LoginSignupPage";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("Home");
+  const [FreelanceCurrentPage, setFreelanceCurrentPage] = useState("Profile");
+  const [clientCurrentPage, setClientCurrentPage] = useState("Profile");
+
   const [isLogin, setIsLogin] = useState(false);
   const user = "Freelancer";
 
@@ -21,11 +24,28 @@ function App() {
   return (
     <div style={{ backgroundColor: "white" }}>
       {!isLogin && <LoginSignupPage setIsLogin={setIsLogin} />}
-      {isLogin && <Header setCurrentPage={setCurrentPage} user={user} />}
+      {isLogin && (
+        <Header
+          setCurrentPage={setCurrentPage}
+          user={user}
+          setFreelanceCurrentPage={setFreelanceCurrentPage}
+          setClientCurrentPage={setClientCurrentPage}
+        />
+      )}
       {currentPage === "Home" && isLogin && <Home />}
       {currentPage === "Project" && isLogin && <Project />}
-      {currentPage === "Freelancer" && isLogin && <Freelancer />}
-      {currentPage === "Client" && isLogin && <ClientPage />}
+      {currentPage === "Freelancer" && isLogin && (
+        <Freelancer
+          currentPage={FreelanceCurrentPage}
+          setCurrentPage={setFreelanceCurrentPage}
+        />
+      )}
+      {currentPage === "Client" && isLogin && (
+        <ClientPage
+          currentPage={clientCurrentPage}
+          setCurrentPage={setClientCurrentPage}
+        />
+      )}
       {currentPage === "Contact Us" && isLogin && <Contact />}
       {isLogin && <Footer />}
     </div>

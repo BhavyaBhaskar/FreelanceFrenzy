@@ -1,7 +1,7 @@
 function ClientCustomerSupport() {
   return (
     <div>
-      <header>
+      <header style={{ paddingBottom: "50px" }}>
         <h1>Customer Support</h1>
       </header>
       <div className="support-container" style={{ paddingLeft: "40px" }}>

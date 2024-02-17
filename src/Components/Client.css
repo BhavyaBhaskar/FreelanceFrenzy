@@ -1,5 +1,5 @@
 .feature {
-  background-color: white; /* Light blue background */
+  background-color: rgb(102, 26, 26); /* Light blue background */
   border: 1px solid #ccc; /* Gray border */
   padding: 15px; /* Add some padding */
   border-radius: 5px; /* Rounded corners */
@@ -7,7 +7,7 @@
 }
 
 .feature:hover {
-  background-color: red; /* Lighter blue on hover */
+  background-color: rgb(102, 26, 26, 0.5); /* Lighter blue on hover */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
 }
 

@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(149, 27, 27);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.payment-entries h2 {
+  margin-top: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+}
+
+table th {
+  background-color: rgb(149, 27, 27);
+  color: #fff;
+}
+button {
+  display: flex;
+}
+button img {
+  height: 14px;
+  width: 14px;
+  margin: 4px 0;
+}
+button span {
+  margin: 0;
+  margin-left: 4px;
+  margin-top: 3px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+}

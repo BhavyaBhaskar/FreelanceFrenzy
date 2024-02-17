@@ -3,8 +3,10 @@ import "./Testimonials.css";
 /* eslint-disable react/no-unescaped-entities */
 function Testimonials() {
   return (
-    <section className="testimonials">
-      <h2 className="testimonials-title">What our users say about us</h2>
+    <section className="testimonials" style={{ marginBottom: "100px" }}>
+      <h2 className="testimonials-title" style={{ color: "black" }}>
+        What our users say about us
+      </h2>
       <div className="testimonials-container">
         <div className="testimonial">
           <blockquote className="testimonial-text">

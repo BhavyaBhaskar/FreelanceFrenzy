@@ -10,6 +10,13 @@
   overflow: hidden;
 }
 
+.bg {
+  background-image: url("DP3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
 .title-text {
   display: flex;
   width: 100%;

@@ -12,7 +12,9 @@ function Contact() {
 
   return (
     <div className="contact">
-      <h1>Contact Us</h1>
+      <header style={{ paddingBottom: "50px" }}>
+        <h1>Contact Us</h1>
+      </header>
       <form
         onSubmit={handleSubmit}
         style={{ marginLeft: "auto", marginRight: "auto" }}

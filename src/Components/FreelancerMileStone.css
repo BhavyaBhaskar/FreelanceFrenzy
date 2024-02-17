@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(149, 27, 27);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.milestone h2 {
+  margin-top: 0;
+}
+
+.progress {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: right;
+  margin-top: 2px;
+}
+
+.progress-bar {
+  background-color: rgb(255, 0, 0);
+  height: 25px;
+  border-radius: 5px;
+}
+.progress p {
+  padding-top: 3px;
+}
+
+.checkpoints {
+  list-style-type: none;
+  padding: 0;
+}
+
+.checkpoints li {
+  margin-bottom: 10px;
+}

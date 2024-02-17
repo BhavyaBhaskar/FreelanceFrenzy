@@ -27,7 +27,7 @@ function ProjectList() {
 
   return (
     <div className="project-list">
-      <h2>Project List</h2>
+      <h2 style={{ color: "black" }}>Project List</h2>
       {query ? (
         <ul className="project" style={{ padding: "4px" }}>
           {query.map((project) => (

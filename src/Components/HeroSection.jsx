@@ -4,9 +4,14 @@ function HeroSection() {
   return (
     <section className="hero-section">
       <div className="hero-content">
-        <h1>Welcome To Freelancing Frenzy</h1>
-        <p>Connect with freelancers and clients around the world</p>
-        <button>Get Started</button>
+        <img src="public\ShortLogo.jpg" style={{ width: "300px" }} />
+        <h1 style={{ color: "white" }}>Welcome To Freelancing Frenzy</h1>
+        <p style={{ color: "white" }}>
+          Connect with freelancers and clients around the world
+        </p>
+        <button style={{ marginLeft: "38%", color: "black" }}>
+          Get Started
+        </button>
       </div>
     </section>
   );

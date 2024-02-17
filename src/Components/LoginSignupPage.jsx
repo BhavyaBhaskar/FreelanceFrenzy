@@ -61,6 +61,7 @@ function LoginSignupPage({ setIsLogin }) {
         setFormData({ email: "", password: "", confirmPassword: "" });
         setIsLogin(true);
       }
+      // setIsLogin(true);
     }
     if (formType !== "login") {
       console.log(formData);
@@ -73,7 +74,7 @@ function LoginSignupPage({ setIsLogin }) {
   };
 
   return (
-    <>
+    <div className="bg">
       <div className="wrapper">
         <img
           src="public\FullLogo.jpg"
@@ -121,7 +122,8 @@ function LoginSignupPage({ setIsLogin }) {
             >
               Signup
             </label>
-            <div className="slider-tab"></div>
+
+            {/* <div className="slider-tab"></div> */}
           </div>
           <div className="form-inner">
             <form onSubmit={handleSubmit} className={formType}>
@@ -176,7 +178,7 @@ function LoginSignupPage({ setIsLogin }) {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
